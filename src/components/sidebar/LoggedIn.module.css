@@ -1,0 +1,43 @@
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 9px;
+  /* display: flex; */
+  width: 100%;
+  gap: 16px;
+}
+
+.container img {
+  border-radius: 100%;
+  width: 40px;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.userDetails p {
+  font-size: 12px;
+}
+
+.menu {
+  background: none;
+  align-items: center;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  text-align: left;
+  transition: all 0.3s ease;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.menu:hover {
+  background: #eeeeee;
+}

@@ -1,0 +1,44 @@
+.layout {
+  max-width: 1160px;
+  width: 100%;
+  padding: 74px 25px;
+  margin: 0 auto;
+}
+
+.reportDetails {
+  background: #ffffff;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.sprintDetails {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.sprintHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

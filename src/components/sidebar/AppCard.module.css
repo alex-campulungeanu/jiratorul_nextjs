@@ -1,0 +1,38 @@
+/* .container {
+  height: 137px;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+} */
+
+.background {
+  /* min-height: 100vh; */
+  border-radius: 10px;
+  background: radial-gradient(
+    128.88% 128.88% at 103.9% -10.39%,
+    #e84d70 0%,
+    #a337f6 53.09%,
+    #28a7ed 100%    
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  padding: 24px;
+}
+
+.content h2 {
+  color: #ffffff;
+}
+
+.content p {
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}

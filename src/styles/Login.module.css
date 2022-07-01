@@ -1,0 +1,64 @@
+.background {
+  min-height: 100vh;
+  background: radial-gradient(
+    128.88% 128.88% at 103.9% -10.39%,
+    #e84d70 0%,
+    #a337f6 53.09%,
+    #28a7ed 100%    
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backButton {
+  position: absolute;
+  color: #ffffff;
+  font-size: 48px;
+  left: 10px;
+  top: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  color: #d73737;
+}
+
+.main {
+  max-width: 1160px;
+  width: 100%;
+  padding: 94px 25px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 464px;
+  width: 100%;
+  padding: 48px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.button {
+  width: 100%;
+  padding: 24px;
+  margin-top: 24px;
+}

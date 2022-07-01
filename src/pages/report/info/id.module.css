@@ -1,0 +1,13 @@
+.layout {
+  max-width: 1160px;
+  width: 100%;
+  padding: 74px 25px;
+  margin: 0 auto;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

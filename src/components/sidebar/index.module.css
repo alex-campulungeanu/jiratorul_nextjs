@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.logginSection {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  gap: 16px;
+}

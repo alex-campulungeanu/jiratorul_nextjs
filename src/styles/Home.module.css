@@ -1,0 +1,22 @@
+.container {
+  max-width: 1160px;
+  width: 100%;
+  padding: 94px 25px;
+  margin: 0 auto;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 255px 1fr;
+  grid-template-areas: 'side main';
+  align-items: start;
+  gap: 32px;
+}
+
+.side {
+  grid-area: side;
+}
+
+.main {
+  grid-area: main;
+}

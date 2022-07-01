@@ -1,0 +1,21 @@
+.container {
+  background: #373f68;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  color: #ffffff;
+}
+
+.text h3 {
+  padding-right: 16px;
+}
+
+.icon {
+  font-size: 24px;
+}

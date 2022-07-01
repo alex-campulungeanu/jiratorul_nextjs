@@ -1,0 +1,27 @@
+version: '3.8'
+
+x-dev:
+  &proxy_conf
+  http_proxy: "${HTTP_PROXY}"
+  https_proxy: "${HTTPS_PROXY}"
+
+services:
+  app:
+    container_name: ${jirl_fe}
+    image: node:12
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      # TS_NODE_FILES: "true" 
+      TS_NODE_TRANSPILE_ONLY: "true"
+      WATCHPACK_POLLING: "true"
+      http_proxy: "${HTTP_PROXY}"
+      https_proxy: "${HTTPS_PROXY}"
+    working_dir: /app
+    ports:
+      - 3051:3000
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - /app/.next
+    restart: on-failure
+    command: tail -f /dev/null
